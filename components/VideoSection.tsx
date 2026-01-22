@@ -16,7 +16,6 @@ export const VideoSection: React.FC = () => {
                 <video 
                     className="w-full h-full object-contain block"
                     autoPlay
-                    muted
                     loop
                     playsInline
                     controls
