@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
 
 export const ProblemSection: React.FC = () => {
   // Estado para la animación de las tarjetas
@@ -285,13 +286,23 @@ export const ProblemSection: React.FC = () => {
             </div>
 
              {/* BLOQUE INFERIOR (Cita) */}
-             <div className="relative z-30 mt-16 mb-0 max-w-2xl mx-auto px-4">
+             <div className="relative z-30 mt-16 mb-0 max-w-2xl mx-auto px-4 flex flex-col items-center gap-10">
                 <div className="text-center">
                     {/* Cita Modificada: Quitada font-serif, sin bordes y bajada un poco */}
                     <p className="text-xl md:text-2xl text-white italic leading-relaxed">
                         "La diferencia entre pedir y conseguir no está en la herramienta, está en el método."
                     </p>
                 </div>
+
+                {/* CTA Button */}
+                <Button 
+                    href="https://wa.me/34641066377?text=Hola%2C%20estoy%20interesado%20en%20el%20sistema%20para%20conseguir%20rese%C3%B1as%20constantes%20en%20Google%20Maps.%20%C2%BFPodr%C3%ADas%20contarme%20c%C3%B3mo%20funciona%20y%20qu%C3%A9%20incluye%3F"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-10 py-3.5 text-sm md:text-base shadow-[0_0_20px_rgba(212,175,55,0.25)] hover:shadow-[0_0_35px_rgba(212,175,55,0.5)]"
+                >
+                    Quiero más reseñas
+                </Button>
             </div>
         </div>
       </section>
