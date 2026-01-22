@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Hero } from './components/Hero';
+import { VideoSection } from './components/VideoSection';
 import { ProblemSection } from './components/ProblemSection';
 import { ServicesCarousel } from './components/ServicesCarousel';
 import { PricingSection } from './components/PricingSection';
@@ -378,6 +379,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-premium-dark text-white font-manrope selection:bg-premium-gold selection:text-black">
       <Hero />
+      <VideoSection />
       <ProblemSection />
       <ServicesCarousel />
       <PricingSection />
