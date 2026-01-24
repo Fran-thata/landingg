@@ -7,7 +7,7 @@ export const VideoSection: React.FC = () => {
       {/* Background Ambience - Vertical Glow behind the "phone" */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[600px] bg-premium-gold/10 blur-[90px] rounded-full pointer-events-none z-0"></div>
 
-      <div className="relative z-10 w-full flex justify-center">
+      <div className="relative z-10 w-full flex flex-col items-center gap-10">
         {/* Phone-like Container (TikTok Format) - Width constrained to phone size */}
         <div className="relative w-full max-w-[340px] rounded-[32px] p-[1px] bg-gradient-to-b from-white/20 via-premium-gold/30 to-white/10 shadow-[0_20px_50px_-10px_rgba(0,0,0,0.5)]">
             

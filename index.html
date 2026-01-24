@@ -51,6 +51,16 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #D4AF37;
       }
+      /* Very subtle sway animation for buttons */
+      @keyframes subtle-sway {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(0.7deg); }
+        75% { transform: rotate(-0.7deg); }
+        100% { transform: rotate(0deg); }
+      }
+      .animate-sway {
+        animation: subtle-sway 4s ease-in-out infinite;
+      }
     </style>
   <script type="importmap">
 {
