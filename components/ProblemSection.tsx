@@ -296,7 +296,7 @@ export const ProblemSection: React.FC = () => {
 
                 {/* CTA Button */}
                 <Button 
-                    href="https://wa.me/34643871290?text=Hola%2C%20estoy%20interesado%20en%20el%20sistema%20para%20conseguir%20rese%C3%B1as%20constantes%20en%20Google%20Maps.%20%C2%BFPodr%C3%ADas%20contarme%20c%C3%B3mo%20funciona%20y%20qu%C3%A9%20incluye%3F"
+                    href="https://wa.me/34643871290?text=Hola%2C%20estoy%20interesado%20en%20un%20sistema%20para%20conseguir%20rese%C3%B1as%20constantes%20en%20Google%20Maps.%20%C2%BFC%C3%B3mo%20funciona%20y%20qu%C3%A9%20incluye%3F"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-10 py-3.5 text-sm md:text-base shadow-[0_0_20px_rgba(212,175,55,0.25)] hover:shadow-[0_0_35px_rgba(212,175,55,0.5)]"
