@@ -264,7 +264,7 @@ const Footer: React.FC = () => {
 
   return (
     <>
-      <footer className="bg-[#050505] py-16 px-6 border-t border-white/10 relative z-10">
+      <footer id="contacto" className="bg-[#050505] py-16 px-6 border-t border-white/10 relative z-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 md:gap-4">
           
           {/* Brand Logo Removed */}
@@ -376,12 +376,32 @@ const Footer: React.FC = () => {
 };
 
 const App: React.FC = () => {
+  // Handle "routing" for single page app based on sitemap URLs
+  useEffect(() => {
+    // Small delay to ensure DOM is ready
+    const timer = setTimeout(() => {
+      const path = window.location.pathname;
+      if (path.includes('/servicios')) {
+        document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (path.includes('/nosotros')) {
+        document.getElementById('nosotros')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (path.includes('/contacto')) {
+        document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="min-h-screen bg-premium-dark text-white font-manrope selection:bg-premium-gold selection:text-black">
-      <Hero />
+      <div id="nosotros">
+        <Hero />
+      </div>
       <VideoSection />
       <ProblemSection />
-      <ServicesCarousel />
+      <div id="servicios">
+        <ServicesCarousel />
+      </div>
       <PricingSection />
       <IsThisForYouSection />
       <ResultsSection />
