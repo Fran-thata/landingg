@@ -87,7 +87,7 @@ export const PricingSection: React.FC = () => {
                             </span>
                         </div>
                         <div className="flex items-baseline gap-2">
-                             <span className="text-3xl text-[#D4AF37] font-medium tracking-tight">150 €</span>
+                             <span className="text-3xl text-[#D4AF37] font-medium tracking-tight">200 €</span>
                              <span className="text-white/50 text-xs font-medium uppercase tracking-wider">(Pago único)</span>
                         </div>
                     </div>
