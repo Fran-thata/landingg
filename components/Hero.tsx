@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 text-premium-gold text-[10px] md:text-sm font-bold uppercase tracking-[0.15em] bg-premium-gold/10 px-4 py-2 rounded border border-premium-gold/30 backdrop-blur-sm whitespace-normal shadow-[0_0_15px_rgba(212,175,55,0.1)]">
             <i className="fa-solid fa-star shrink-0"></i>
-            <span>Método probado para negocios y profesionales</span>
+            <span>Método probado para negocios</span>
           </div>
         </div>
         
