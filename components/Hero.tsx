@@ -7,7 +7,7 @@ export const Hero: React.FC = () => {
       {/* Background Image - Static, no animation */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('https://res.cloudinary.com/ddpujsrsg/image/upload/v1771187257/WhatsApp_Image_2026-02-15_at_21.25.58_lyht3n.jpg')" }}
+        style={{ backgroundImage: "url('https://res.cloudinary.com/ddpujsrsg/image/upload/v1771187777/WhatsApp_Image_2026-02-15_at_21.35.28_pjlfb9.jpg')" }}
       />
       
       {/* Dark Gradient Overlay */}
