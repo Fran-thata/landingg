@@ -94,10 +94,10 @@ export const IsThisForYouSection: React.FC = () => {
 
                     <div className="flex flex-col">
                         {[
-                            { title: "Atención Directa", desc: "Tienes servicio en mesa o mostrador." },
-                            { title: "Flujo Constante", desc: "Buscas reseñas diarias, no picos temporales." },
-                            { title: "Ambición Digital", desc: "Quieres control total sobre tu visibilidad en Google." },
-                            { title: "Compromiso", desc: "Estás dispuesto a aplicar un método real con tu equipo." }
+                            { title: "Atención Directa", desc: "Tienes contacto presencial con el cliente en mostrador, mesa o despacho." },
+                            { title: "Flujo Constante", desc: "Buscas un crecimiento orgánico y diario de tu reputación, no picos temporales." },
+                            { title: "Dominio Digital", desc: "Quieres el control total de tu visibilidad y posicionamiento en Google." },
+                            { title: "Compromiso", desc: "Estás decidido a aplicar un método profesional junto a tu equipo." }
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-6 py-6 border-b border-white/[0.08] last:border-0 last:pb-0">
                                 {/* Icon Chip - GOLD STYLE - UPSIZED */}
@@ -152,9 +152,8 @@ export const IsThisForYouSection: React.FC = () => {
 
                     <div className="flex flex-col">
                         {[
-                            { title: "Sin Contacto", desc: "No tienes trato directo con el cliente final." },
-                            { title: "Atajos", desc: "Buscas trucos mágicos o comprar reseñas falsas." },
-                            { title: "Pasividad", desc: "No quieres implicar al equipo ni mejorar procesos." }
+                            { title: "Careces de Contacto", desc: "Tu negocio no tiene trato directo con el cliente final." },
+                            { title: "Prefieres los Atajos", desc: "Buscas soluciones mágicas o métodos para comprar reseñas falsas." }
                         ].map((item, i) => (
                             <div key={i} className="flex items-start gap-6 py-6 border-b border-white/[0.08] last:border-0 last:pb-0">
                                 {/* Icon Chip - BURGUNDY STYLE - UPSIZED */}

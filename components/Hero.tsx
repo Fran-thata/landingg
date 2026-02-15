@@ -6,8 +6,8 @@ export const Hero: React.FC = () => {
     <section className="relative min-h-[90svh] w-full flex items-center justify-start px-5 md:px-12 lg:px-24 overflow-hidden">
       {/* Background Image - Static, no animation */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=2070&auto=format&fit=crop')" }}
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('https://res.cloudinary.com/ddpujsrsg/image/upload/v1771187257/WhatsApp_Image_2026-02-15_at_21.25.58_lyht3n.jpg')" }}
       />
       
       {/* Dark Gradient Overlay */}
@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 text-premium-gold text-[10px] md:text-sm font-bold uppercase tracking-[0.15em] bg-premium-gold/10 px-4 py-2 rounded border border-premium-gold/30 backdrop-blur-sm whitespace-normal shadow-[0_0_15px_rgba(212,175,55,0.1)]">
             <i className="fa-solid fa-star shrink-0"></i>
-            <span>Método probado para hostelería</span>
+            <span>Método probado para negocios y profesionales</span>
           </div>
         </div>
         

@@ -33,7 +33,7 @@ export const ProblemSection: React.FC = () => {
     {
       icon: "fa-users-slash",
       title: "Pérdida de clientes",
-      desc: "Antes de entrar a un local valoran irse con quien tiene más estrellas."
+      desc: "Te buscan a ti, pero eligen la competencia con más reseñas"
     }
   ];
 
@@ -203,7 +203,7 @@ export const ProblemSection: React.FC = () => {
             {/* Body Paragraphs - Aligned Left */}
             <div className="space-y-6 text-lg text-white leading-relaxed font-medium text-left max-w-2xl">
                 <p>
-                    Muchos locales lo hacen mal. Ponen un QR en el ticket o envían un email horas después. El resultado suele ser el mismo: Acaba en la basura. Cuando el cliente cruza la puerta, ya ha desconectado.
+                    Muchos negocios lo hacen mal: ponen un QR estático o envían un mensaje horas después. El resultado suele ser el mismo, acaba en la basura; cuando el cliente finaliza el servicio, ya ha desconectado.
                 </p>
                 <p>
                     La clave es capturarlo en caliente, mientras siguen en la mesa. Sin fricción. De forma natural. Justo cuando la satisfacción es máxima.
@@ -245,7 +245,7 @@ export const ProblemSection: React.FC = () => {
                         NO ES PEDIR POR PEDIR.
                     </h3>
                     <h3 className="text-lg md:text-xl font-bold text-[#D4AF37] uppercase tracking-[0.15em] drop-shadow-md font-sans">
-                        ES SABER LEER LA MESA.
+                        ES SABER LEER EL MOMENTO.
                     </h3>
                 </div>
             </div>
@@ -345,7 +345,7 @@ export const ProblemSection: React.FC = () => {
                         </div>
                     </div>
                     <p className="text-left text-white text-2xl md:text-3xl leading-tight font-medium">
-                        Tener tarjetas y expositores sin un método es <span className="text-white font-bold">tirar el dinero.</span>
+                        Invertir en dispositivos NFC y QR sin una estrategia es <span className="text-white font-bold">tirar dinero.</span>
                     </p>
                 </div>
 
@@ -365,7 +365,7 @@ export const ProblemSection: React.FC = () => {
                         <i className="fa-solid fa-trophy text-4xl text-premium-gold drop-shadow-[0_2px_5px_rgba(212,175,55,0.5)]"></i>
                     </div>
                     <p className="text-left text-white text-2xl md:text-3xl leading-tight font-medium">
-                        Si tu equipo no prepara el terreno y el cliente no sale encantado, <span className="text-white">se quedarán de adorno.</span>
+                        Los dispositivos solo son efectivos si aplicas el sistema <span className="text-white font-bold">antes de finalizar el servicio.</span>
                     </p>
                 </div>
 
@@ -374,7 +374,7 @@ export const ProblemSection: React.FC = () => {
             {/* Caja Dorada Inferior */}
             <div className="w-full bg-gradient-to-r from-[#F2D06B] via-[#D4AF37] to-[#B48F26] rounded-xl p-6 md:p-8 shadow-[0_0_30px_rgba(212,175,55,0.3)] relative overflow-hidden">
                 <p className="text-black font-extrabold text-xl md:text-2xl leading-tight relative z-10">
-                    Los dispositivos no piden la reseña por ti. Tu equipo sí.
+                    La tecnología no pide la reseña por ti, la ejecución del método sí.
                 </p>
             </div>
         </div>
@@ -392,7 +392,7 @@ export const ProblemSection: React.FC = () => {
               <div className="w-24 h-0.5 bg-[#D4AF37] mx-auto mb-6 opacity-60"></div>
               {/* Text reverted to neutral */}
               <p className="text-white text-lg md:text-xl font-medium tracking-wide">
-                  Se integra en tu rutina sin que lo notes.
+                  Se integra en operativa diaria sin fricciones
               </p>
           </div>
 
@@ -415,7 +415,7 @@ export const ProblemSection: React.FC = () => {
                           <h3 className="text-[#D4AF37] font-bold text-lg mb-2">Paso 1: Petición natural</h3>
                           {/* Text reverted to white/neutral */}
                           <p className="text-white leading-relaxed text-base">
-                              Cliente satisfecho → El equipo pide la valoración al cerrar la cuenta.
+                              Cliente satisfecho, se pide la valoración al finalizar el servicio.
                           </p>
                       </div>
                   </div>
@@ -429,7 +429,7 @@ export const ProblemSection: React.FC = () => {
                           <h3 className="text-[#D4AF37] font-bold text-lg mb-2">Paso 2: Guía del mensaje</h3>
                           {/* Text reverted to white/neutral */}
                           <p className="text-white leading-relaxed text-base">
-                              Sugerimos sutilmente qué escribir. Así el cliente no tiene que pensar y Google te premie.
+                              Sugerimos que destacar. El cliente no tiene que pensar y tu posicionamiento mejora.
                           </p>
                       </div>
                   </div>
@@ -462,7 +462,7 @@ export const ProblemSection: React.FC = () => {
                        </h3>
                        {/* Text reverted to white/neutral */}
                        <p className="text-white text-base leading-relaxed">
-                          Se detecta y se corrige en la mesa. Así evitas que la queja llegue a Google Maps.
+                          Se detecta y se corrige en el momento así evitas que la queja llegue a Google Maps.
                        </p>
                    </div>
               </div>

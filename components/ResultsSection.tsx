@@ -11,7 +11,7 @@ const benefits = [
   { icon: "fa-arrow-trend-up", title: "Crecimiento real", desc: "Sin picos artificiales que alerten a Google.", emoji: "📈" },
   { icon: "fa-star", title: "100% Orgánico", desc: "Reseñas auténticas de clientes reales.", emoji: "⭐" },
   { icon: "fa-eye", title: "Más Visibilidad", desc: "Apareces antes que tu competencia local.", emoji: "👁️" },
-  { icon: "fa-sliders", title: "Uso Sencillo", desc: "Se aplica en segundos, sin frenar el servicio.", emoji: "⚙️" },
+  { icon: "fa-sliders", title: "Uso Sencillo", desc: "Se aplica en segundos sin interrumpir el flujo de tu actividad profesional.", emoji: "⚙️" },
   { icon: "fa-shield-halved", title: "Cero Riesgos", desc: "Sin compras falsas ni penalizaciones.", emoji: "🛡️" }
 ];
 
@@ -102,10 +102,10 @@ export const ResultsSection: React.FC = () => {
         {/* HEADER */}
         <div className="text-left mb-16">
           <h2 className="text-4xl md:text-5xl font-semibold text-[#F5F5F7] mb-6 tracking-tight leading-[1.1]">
-            Resultados en negocios reales
+            Resultados en entornos reales
           </h2>
           <p className="text-[#F5F5F7]/80 text-lg leading-[1.65] font-light">
-            Probado en barras y mesas con equipos de todo tipo. La reseña llega sola como el cierre natural de un buen servicio.
+            Probado en entornos de atención al público, establecimientos y despachos. La reseña llega sola como el cierre natural de un buen servicio.
           </p>
         </div>
 

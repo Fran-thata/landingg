@@ -3,28 +3,28 @@ import React, { useState } from 'react';
 const faqs = [
   {
     id: "01",
-    question: "“Ya tengo reseñas, ¿para qué necesito esto?”",
-    answer: "No vendemos reseñas, vendemos un sistema de captación. Sin un método, tu crecimiento depende del azar. Con esto, aseguras que cada buen servicio se convierta en un activo digital."
+    question: "“Ya tengo reseñas, ¿qué diferencia va a marcar este sistema?”",
+    answer: "Tener reseñas no es suficiente; necesitas frescura y frecuencia. Google prioriza los negocios con actividad reciente. Este sistema no solo suma cantidad, sino que construye una autoridad imparable que te mantiene siempre por encima de tu competencia."
   },
   {
     id: "02",
-    question: "“Mi negocio ya funciona sin Google Maps”",
-    answer: "Funciona hoy por ubicación, pero el cliente nuevo compara en el móvil antes de entrar. Si tu competencia tiene mejor puntuación, estás perdiendo dinero que ni siquiera llegas a ver."
+    question: "“Mi negocio ya funciona, ¿por qué debería priorizar Google Maps?”",
+    answer: "Funcionar no es lo mismo que dominar. Estar fuera de los tres primeros resultados de Maps es regalarle clientes diarios a tu competencia. No es solo visibilidad, es asegurar tu cuota de mercado frente a los que ya están buscando lo que tú ofreces."
   },
   {
     id: "03",
     question: "“He probado a pedir reseñas y no funcionó”",
-    answer: "Pedir por compromiso incomoda al equipo y al cliente. El secreto no es pedir más, sino pedir mejor: en el momento exacto y de forma natural."
+    answer: "Pedir reseñas manualmente es incómodo y poco efectivo porque genera fricción. Este sistema elimina el esfuerzo: el cliente solo tiene que acercar su móvil. Convertimos una intención olvidada en un activo real para tu negocio en segundos."
   },
   {
     id: "04",
-    question: "“En mi zona la gente no deja reseñas”",
-    answer: "El cliente no deja reseñas porque le da pereza pensar qué escribir. Nuestro sistema le da ideas clave y facilita el proceso para que se publique en 10 segundos."
+    question: "“¿Realmente mis clientes se van a tomar la molestia de escribir?”",
+    answer: "El cliente no escribe porque sea difícil, sino por falta de inmediatez. Al eliminar los pasos intermedios (buscar el negocio, abrir la ficha, etc.), facilitas que la satisfacción del momento se transforme en una reseña de 5 estrellas al instante."
   },
   {
     id: "05",
-    question: "“Ahora no es buen momento, lo veré más adelante”",
-    answer: "Cada semana que pospones el sistema es una semana que tu competencia te saca ventaja. Mientras lo piensas, otros están blindando su reputación."
+    question: "“¿Qué pasa si decido posponerlo para más adelante?”",
+    answer: "Cada día que esperas, tu competencia acumula una ventaja reputacional que luego será mucho más cara y difícil de remontar. Posponerlo es permitir que otros se queden con los clics que hoy deberían ser tuyos. La reputación digital no se compra, se construye con tiempo."
   }
 ];
 
@@ -51,7 +51,7 @@ export const FAQSection: React.FC = () => {
         {/* H2 Title - Compact */}
         <div className="text-left md:text-center px-2">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#F0F0F0] leading-tight tracking-tight">
-            Dudas habituales antes de decidir
+            Preguntas frecuentes de profesionales decididos
           </h2>
         </div>
 

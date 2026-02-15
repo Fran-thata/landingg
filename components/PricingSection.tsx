@@ -2,7 +2,7 @@ import React from 'react';
 
 export const PricingSection: React.FC = () => {
   const benefits = [
-    "Método + Capacitación: Tu equipo sabrá exactamente qué hacer.",
+    "Método + Capacitación: Tú y tu equipo sabréis exactamente qué hacer.",
     "Implementación guiada: No estarás solo, lo dejamos listo.",
     "Kit Tecnológico: 1 Expositor + 2 Tarjetas NFC de alta durabilidad.",
     "Sin cuotas mensuales: El sistema es tuyo para siempre."
@@ -49,7 +49,7 @@ export const PricingSection: React.FC = () => {
              Un solo pago, resultados para siempre
            </h3>
            <p className="text-white/80 text-[16px] leading-[1.65] font-normal max-w-xs mx-auto">
-             Implementamos el sistema completo y lo dejamos funcionando: Método, Formación y Tecnología.
+             Sistema instalado y listo para usar: método, formación y tecnología.
            </p>
         </div>
 
@@ -87,7 +87,7 @@ export const PricingSection: React.FC = () => {
                             </span>
                         </div>
                         <div className="flex items-baseline gap-2">
-                             <span className="text-3xl text-[#D4AF37] font-medium tracking-tight">200 €</span>
+                             <span className="text-3xl text-[#D4AF37] font-medium tracking-tight">250 €</span>
                              <span className="text-white/50 text-xs font-medium uppercase tracking-wider">(Pago único)</span>
                         </div>
                     </div>
